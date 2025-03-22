@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Wikipedia Website Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contents {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border: 1px solid #ddd;
+            width: 300px;
+        }
+        .contents h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .custom-list {
+            counter-reset: section;
+            padding-left: 20px;
+        }
+
+        .custom-list > li {
+            counter-increment: section;
+        }
+
+        .custom-list > li::before {
+            content: counter(section) ". ";
+            font-weight: bold;
+        }
+
+        .custom-list ol {
+            counter-reset: subsection;
+            padding-left: 20px;
+        }
+
+        .custom-list ol > li {
+            counter-increment: subsection;
+        }
+
+        .custom-list ol > li::before {
+            content: counter(section) "." counter(subsection) " ";
+            font-weight: bold;
+        }
+    </style>
+        
+
+    <div class="container">
+        <header>
+
+            </div>
+            <nav class="user-options" style="text-align: right;">
+                <img src="img/user-ico.png" alt="">
+                <a href="#">Not logged in</a> |
+                <a href="#">Create account</a> |
+                <a href="#">Log in</a>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <nav>
+                    <ul>
+                        <div class="logo">
+                            <img src="img/logo.png" alt="Wikipedia logo">
+                        </div>
+                        <li><a href="#">Main page</a></li>
+                        <li><a href="#">Contents</a></li>
+                        <li><a href="#">Featured content</a></li>
+                        <nav class="user-options">
+                        </nav>
+                        <hr>
+                            Interaction
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portal</a></li>
+                        <nav class="user-options">
+                            nteraction
+                        </nav>
+                        <hr>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portal</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="content content-box">
+                <article>
+                    <div>
+                    <h1 >Simple Wikipedia Website Template</h1>
+                    <hr>
+                    <small>
+                        From Wikipedia, the free encyclopedia
+                    </small>
+                    </div>
+                    <p class="italic">This article is about the writing implement. For other uses, see Pencil
+                        (disambiguation).</p>
+                    <p>Lorem ipsum h6dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod dolore cumque quia? Itaque, nemo! Nobis recusandae minus mollitia eius!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia modi officiis deleniti cumque aliquid.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quisquam nostrum voluptatibus velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, amet.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quas! Ducimus expedita corporis possimus doloribus.</p>
+                </article>
+
+                    <div class="contents">
+                        <h6 class="box">Contents</h6>
+                        <ol class="custom-list">
+                            <li>History
+                                <ol>
+                                    <li>Camel's hair pencil</li>
+                                    <li>Discovery of graphite deposit</li>
+                                    <li>Wood holders added</li>
+                                </ol>
+                            </li>
+                            <li>Health</li>
+                            <li>Manufacture</li>
+                            <li>Grading and classification</li>
+                        </ol>
+                    </div>
+                    <h2>
+                Paulo eirmod intellegam
+            </h2>
+                <hr>
+                <h2>
+                    Percipit malestatls sea eu
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem possimus iste repellendus natus, mollitia sunt labore pariatur at facilis?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae eius exercitationem vel iusto quae impedit asperiores. Debitis adipisci molestiae maxime corrupti.
+                </p>
+                <h2>
+                    Nam option recuseabo
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur natus atque nesciunt beatae recusandae cupiditate ex adipisci repudiandae sit repellat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat cupiditate impedit nesciunt deleniti! Perferendis minus quos accusantium accusamus delectus. Inventore.
+                </p>
+                <div class="button-container">
+                    <a href="#">Minimum corrumpit</a>
+                    <span class="separator">|</span>
+                    <a href="#">Regione suscipit</a>
+                    <span class="separator">|</span>
+                    <a href="#">Has et partem</a>
+                </div>
+            
+            </main>
+        </div>
+
+        <footer>
+            <p>This page was last edited on 29 Jul 2017 | Template by <a href="#">HTML5 Templates</a></p>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">About Wikipedia</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Cookie statement</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+</body>
+
+</html>

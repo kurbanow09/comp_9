@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 110px;
+    height: 120px;
+    margin-right: 100px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo p {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    padding: 8px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 75%;
+}
+
+.italic {
+    font-style: italic;
+    color: gray;
+}
+
+.content-box {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.content-box h2 {
+    font-size: 18px;
+}
+
+.content-box ul {
+    padding-left: 20px;
+}
+
+footer {
+    border-top: 2px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: fit-content;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: #0645ad;
+    padding: 5px 45px;
+}
+
+.button-container a:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    color: #888;
+}
+.box {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+}

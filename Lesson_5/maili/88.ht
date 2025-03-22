@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bg-gray-500 {
+        background-color: #9e9e9e;
+      }
+      .py-5 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+      }
+      .container-sm {
+        max-width: 724px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .h1 {
+        font-size: 42px;
+      }
+      .h3 {
+        font-size: 24px;
+      }
+      .h6 {
+        font-size: 18px;
+      }
+      .bg-white {
+        background-color: white;
+      }
+      .pt-3 {
+        padding-top: 16px;
+      }
+      .py-3 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      .px-2 {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+      .border {
+        border: 1px solid #9e9e9e;
+      }
+      .bg-blue {
+        background-color: rgb(165, 185, 217);
+      }
+      .border-black {
+        border-color: black;
+      }
+    </style>
+  </head>
+  <body style="background-color: #faf8f8;">
+    <div class="bg-gray-500 py-5"></div>
+    <div class="container-sm">
+      <div class="bg-white py-3 px-2">
+        <div class="h1 pt-3">Hi, Susan Calvin</div>
+        <div class="h3 pt-3">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab mollitia
+          sequi voluptatum eveniet possimus dolores?
+        </div>
+        <div class="h6 py-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at,
+          aspernatur dolor perspiciatis illo rerum officiis repudiandae harum
+          blanditiis placeat natus quidem assumenda, dignissimos tempore!
+          Molestiae debitis maxime eveniet ratione, officiis maiores aliquid
+          suscipit nisi! Quae voluptatum magni, labore, repudiandae, praesentium
+          autem atque placeat nisi quo tempora tempore deserunt eius. Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Eius unde
+          molestias reprehenderit tenetur, omnis temporibus accusamus sequi
+          quasi ullam,
+        </div>
+        <div class="border border-black bg-blue py-3 px-2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+          iste, magnam omnis itaque blanditiis porro soluta deserunt, quisquam
+          qui vitae, quia commodi maxime sint placeat! Nulla, nisi? Magni
+          obcaecati quis aliquam, autem architecto sequi illum vitae ab numquam
+          dolore eius esse, repellat mollitia asperiores?
+        </div>
+      </div>
+      <div class="d-flex">
+        <div>
+            <div>
+                Connect With Us:
+            </div>
+            <div>
+                <button>Facebook</button>
+            </div>
+            <div>
+                <button>Twitter</button>
+            </div>
+            <div>
+                <button>Google+</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                Connect Info
+            </div>
+            <div>
+                Phone: 408-341-0600
+            </div>
+            <div>
+                Email: <a href="">foundation@zurb.com</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
