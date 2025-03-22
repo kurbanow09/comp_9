@@ -1,0 +1,31 @@
+.bg-purple {
+    background-color: #c886c6;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.px-5 {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 900px;
+}
