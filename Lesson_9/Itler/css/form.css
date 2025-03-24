@@ -1,0 +1,76 @@
+input {
+    vertical-align: middle;
+    font-weight: bold;
+    outline: none;
+    padding: 8px 8px;
+    border: 1px solid #9E9E9E;
+    border-radius: 4px;
+}
+
+input:hover {
+    border: 1px solid #616161;
+}
+
+.btn {
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    background-color: #c0c0c0;
+    border: 1px solid #777777;
+}
+
+.btn:hover {
+    text-decoration: none !important;
+}
+
+.btn-blue {
+    color: #ffffff;
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.btn-blue:hover {
+    background-color: #8071C5;
+    border-color: #8071C5;
+}
+
+.btn-green {
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.btn-green:hover {
+    background-color: #009995;
+    border-color: #009995;
+}
+
+.center .btns button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid #ffffff;
+}
+
+.btn-black {
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.btn-pink {
+    color: #ffffff;
+    background-color: rgb(200, 35, 97);
+    border: 1px solid rgb(200, 35, 97);
+}
+
+.btn-pink:hover {
+    background-color: rgb(255, 255, 255);
+    border-color:  rgb(255, 255, 255);
+}
