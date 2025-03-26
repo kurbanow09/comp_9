@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+
+
+/* Form ve iletişim bilgilerini yan yana koy */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Form ve bilgileri yarı yarıya böl */
+.contact-form {
+    flex: 1;
+    text-align: center;
+    
+}
+
+.contact-info {
+    flex: 1;
+}
+
+/* Form elemanları */
+.contact-form input, .contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 50%;
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #2980b9;
+}
+
+/* İletişim bilgileri */
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.element {
+    width: 50px;
+    height: 50px;
+}
