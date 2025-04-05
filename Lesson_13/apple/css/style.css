@@ -1,0 +1,29 @@
+.bg-image {
+    background-image: url('../img/s5.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .3);
+}
+.header-margin-bottom {
+    margin-bottom: 5rem;
+}
+
+.header-margin-top {
+    margin-top: -5rem;
+}
+
+.pb-10{
+    padding-bottom:160px;
+}
+.pt-10{
+    padding-top:130px;
+}
+
+.rounded-10{
+    border-radius: 65px;
+}
