@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancybox</title>
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-xl">
+        <div class="row">
+            <div class="col">
+                <div class="border-2 border shadow d-inline-block">
+                    <div class="p-5">
+                        <div>
+                            <a href="img/first-trainer.jpg" class="text-decoration-none img-fluid"
+                                data-fancybox="gallery" data-caption="Strength Trainer">
+                                <img src="img/first-trainer.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-2 border shadow d-inline-block">
+                    <div class="p-5">
+                        <div>
+                            <a href="img/second-trainer.jpg" class="text-decoration-none img-fluid"
+                                data-fancybox="gallery" data-caption="Muscle Trainer">
+                                <img src="img/second-trainer.jpg" />
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-2 border shadow d-inline-block">
+                    <div class="p-5">
+                        <div class="">
+                            <a href="img/third-trainer.jpg" class="img-fluid"
+                                data-fancybox="gallery" data-caption="Power Trainer">
+                                <img src="img/third-trainer.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            'animated': true,
+        });
+    </script>
+</body>
+
+</html>
