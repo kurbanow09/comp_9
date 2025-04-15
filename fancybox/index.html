@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+</head>
+
+<body>
+    <div class="container-xxl py-5">
+        <div class="row py-5">
+            <div class="col-4">
+                <div>
+                    <img src="img/gallery-img1.jpg" alt="" class="w-100 img-fluid">
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <img src="img/gallery-img2.jpg" alt="" class="w-100 img-fluid">
+                </div>
+            </div>
+            <div class="col-4">
+                <div>
+                    <img src="img/gallery-img3.jpg" alt="" class="w-100 img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl">
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div>
+                            <img src="img/gallery-img1.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div>
+                            <img src="img/gallery-img2.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div>
+                            <img src="img/gallery-img3.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div>
+                            <img src="img/gallery-img4.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div>
+                            <img src="img/gallery-img5.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                fixedWidth: '10rem',
+                fixedHeight: '6rem',
+                gap: '1rem',
+            });
+            splide.mount();
+        });
+    </script>
+</body>
+
+</html>
