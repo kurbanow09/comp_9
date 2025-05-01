@@ -1,0 +1,21 @@
+<!-- This method is used to get an element by its ID.
+
+Bu usul, ID bilen element almak üçin ulanylýar. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>getElementById Example</title>
+</head>
+<body>
+    <h1 id="header">Hello, World!</h1>
+    <button onclick="changeHeaderText()">Change Text</button>
+
+    <script>
+        function changeHeaderText() {
+            var header = document.getElementById("header");
+            header.innerText = "Hello, JavaScript!";
+        }
+    </script>
+</body>
+</html>
