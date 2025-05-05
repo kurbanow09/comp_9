@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="p-5">
+        <div>
+            <input type="text" class="border border-3 border-dark rounded-3 py-1 ps-2" placeholder="write your number "
+                id="input">
+            <button class="btn btn-dark" id="btn">Send</button>
+        </div>
+        <div id="output"></div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        let btn = document.getElementById('btn');
+        let output = document.getElementById('output');
+
+        btn.addEventListener('click', function() {
+            let input = document.getElementById('input').value;
+            if (Number(input)) {
+                output.textContent = input;
+            } else {
+                output.textContent = 'write number'
+
+            }
+        })
+    </script>
+</body>
+
+</html>
