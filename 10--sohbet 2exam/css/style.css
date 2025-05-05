@@ -1,0 +1,60 @@
+.container-sm {
+    max-width: 764px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1 {
+    font-size: 42px;
+}
+.text-green {
+    color: green;
+}
+.border-green {
+    border: 2px solid green;
+}
+.border-green:hover {
+    background-color: green;
+    color: white;
+}
+.py-3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.px-5 {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.h6 {
+    font-size: 18px;
+}
+.text-blue {
+    color: blue;
+}
+.border-blue {
+    border: 2px solid blue;
+}
+.border-blue:hover {
+    background-color: blue;
+    color: white;
+}
+.text-orange {
+    color: orange;
+}
+.border-orange {
+    border: 2px solid orange;
+}
+.border-orange:hover {
+    background-color: orange;
+    color: white;
+}
+.text-red {
+    color: red;
+}
+.border-red {
+    border: 2px solid red;
+}
+.border-red:hover {
+    background-color: red;
+    color: white;
+}
+

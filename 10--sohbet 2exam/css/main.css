@@ -1,0 +1,63 @@
+.bg-image-intre {
+    background-image: url("../img/contact-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image-between {
+    background-image: url("../img/cta-bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-shadow {
+    background-color: rgba(228, 222, 222, 0.274);
+}
+
+a.hover {
+    position: relative;
+    color: white!important;
+    text-decoration: none;
+}
+
+a.hover-1:hover {
+    color: red!important;
+}
+.card {
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+.card1 {
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.bg-gok {
+    background-color:  #057A8D;
+}
+.bg-cal {
+    background-color:  #EFF6FC;
+}
+
+.text-gok {
+    color: #057A8D;
+}
+.illustration {
+    max-width: 100%;
+    height: auto;
+}
+
+.cyzyk {
+    text-decoration: none;
+}

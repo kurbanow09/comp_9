@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/bg.css">
+</head>
+
+<body>
+    <div class="container-xxl py-5">
+        <div class="row">
+            <div class="col">
+                <img src="img/first-trainer.jpg" alt="" class="img-fluid w-100">
+            </div>
+
+            <div class="col">
+                <img src="img/second-trainer.jpg" alt="" class="img-fluid w-100">
+            </div>
+            <div class="col">
+                <img src="img/third-trainer.jpg" alt="" class="img-fluid w-100">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="row">
+            <div class="col">
+                <a href="img/first-trainer.jpg" class="img-fluid w-100" data-fancybox="gallery"
+                    data-caption="Baymyrat">
+                    <img src="img/first-trainer.jpg" />
+                </a>
+            </div>
+            <div class="col">
+                <a href="img/first-trainer.jpg" class="img-fluid w-100" data-fancybox="gallery"
+                    data-caption="Baymyrat">
+                    <img src="img/second-trainer.jpg" />
+                </a>
+            </div>
+            <div class="col">
+                <a href="img/first-trainer.jpg" class="img-fluid w-100" data-fancybox="gallery"
+                    data-caption="Baymyrat">
+                    <img src="img/third-trainer.jpg" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+
+
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            'animated': true,
+        });
+    </script>
+</body>
+
+</html>
