@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <input type="number" id="number">
+    <button onclick="CheckNumber()">Barla</button>
+    <p id="numberResult"></p>
+
+    <script>
+        function CheckNumber() {
+            const num = Number(document.getElementById('number').value);
+            if (num > 0) {
+                result = 'pozitiw san.';
+            } else if (num < 0) {
+                result = 'negatiw san.';
+            } else {
+                result = 'san nol.';
+            }
+            document.getElementById('numberResult').innerText = result;
+        }
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

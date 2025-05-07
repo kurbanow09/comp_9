@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+   
+    <button onclick="sanySan()">sanamak</button>
+    <p id="netije"></p>
+
+    <script>
+        function sanySan() {
+            let yazy = "";
+            for  (let i = 5; i >= 1; i--) {
+            yazy += i + "  ";
+            }
+            document.getElementById('netije').innerText = yazy;
+        }
+    </script>
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+</body>
+</html>
