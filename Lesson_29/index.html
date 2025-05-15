@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-xxl pt-5">
+        <div class="h1 fw-bold-semibold">
+            Login
+        </div>
+        <div class="pt-3">
+            Username
+            <input type="text" id="name" placeholder="Username">
+        </div>
+        <div class="pt-3">
+            Password
+            <input type="password" id="password" placeholder="Password">
+        </div>
+
+        <button onclick="Login()" class="rounded-1 m-3">
+            Login
+        </button>
+        <p id="netije"></p>
+    </div>
+
+
+    <script>
+        const dogryat = "Dayanch";
+        const dogryparol = "32926207";
+        function Login() {
+            const ady = document.getElementById('name').value;
+            const parol = document.getElementById('password').value;
+            const netijee = document.getElementById('netije');
+
+            if (dogryat === ady && dogryparol === parol) {
+                netijee.textContent = 'Dogry';
+            } else {
+                netijee.textContent = "Nadogry";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veery Simple Add and Remove </title>
+</head>
+<body>
+    <h1>Products</h1>
+    <button onclick="addToCart ('Laptop')">Add Laptop</button>
+    <button onclick="addToCart ('Mouse')">Add Mouse</button>
+    <button onclick="addToCart ('Keyboard')">Add Keyboard</button>
+    
+    <h2>Your Cart</h2>
+    <div id="cart"></div>
+
+    <script>
+        let cartContent = "";
+        const cartDiv = document.getElementById('cart');
+
+        function addItem(productName) {
+            cartContent += productName + "<button onclick=\"removeItem('"+productName +"')\">Remove</button><br>";
+            cartDiv.innerHTML = cartContent;
+        }
+
+        function removeItem(productToRemove) {
+            let newCartContent = "";
+            const itemsInCart = cartContent.split("<br>");
+            for (const item of itemsInCart) {
+                if (item && !item.startsWith(productToRemove +" ")) {
+                    newCartContent += item + "<br>";
+                }
+            }
+            cartContent = newCartContent;
+            cartDiv.innerHTML = cartContent;
+        }
+    </script>
+</body>
+</html>
