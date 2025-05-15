@@ -1,0 +1,73 @@
+
+.bg-image1 {
+  background-image: url("../images/pop-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image2 {
+  background-image: url("../images/pop-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-color {
+  background-color: #4A4951;
+}
+
+.color {
+  color: #345677;
+}
+.link {
+  padding: 15px 40px;
+  margin-right: 15px;
+  border-bottom: 1px solid white;
+}
+
+.bg-image2 {
+  background-image: url("../images/infinite-loop-02-mobile.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image3 {
+  background-image: url("../images/infinite-loop-03.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-item .nav-link:hover {
+  background-color: rgba(134, 129, 129, 0.3);
+  color: #345677;
+  
+}
+
+.close-link {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: #9A9B9D;
+}
+#video-container {
+  max-height: 400px;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
